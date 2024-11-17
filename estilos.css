@@ -287,3 +287,58 @@ aside ul {
     background-color: beige;
     clear: both; /* Asegura que esta sección no flote */
 }
+
+/* Contact Section */
+        .contacto {
+            background-color: #d6cfb1;
+            padding: 20px;
+            text-align: center;
+            font-size: 1em;
+        }
+
+        .contacto p {
+            margin: 5px 0;
+        }
+
+        .contacto a {
+            color: #003595;
+            text-decoration: none;
+            font-weight: 400;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #f1ebd5;
+            padding: 20px;
+            text-align: center;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        footer .footer-content {
+            display: flex;
+            align-items: center;
+            flex: 1;
+            justify-content: center;
+        }
+
+        footer img {
+            height: 50px;
+            margin: 0 15px;
+        }
+
+        footer span {
+            font-weight: 700;
+            font-size: 1.2em;
+            color: #003595;
+        }
+
+        footer small {
+            display: block;
+            margin-top: 10px;
+            color: #8a7520;
+            font-size: 0.9em;
+        }
+
